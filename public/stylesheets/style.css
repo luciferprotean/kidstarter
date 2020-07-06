@@ -1,6 +1,6 @@
 body {
     
-  background-color:rgb(237, 237, 238);
+  background-color:rgb(249, 249, 250);
   font-family: 'Roboto', sans-serif;
   
   font: 16px; 
@@ -21,7 +21,7 @@ a {
   /* min-height: 100vh; */
   /* justify-content: center; 
   align-items: center;  */
-  background-color:rgb(237, 237, 238);
+  background-color:rgb(249, 249, 250);
 }
 .rowContainer1 {
   padding: 8px 8px;
@@ -33,7 +33,7 @@ a {
   padding: 8px 8px;
   display: flex;
   flex-direction: row;
-  background-color:rgb(73, 237, 243);
+  /* background-color:rgb(73, 237, 243); */
 }
 .logo{
   justify-content: center; 
@@ -54,4 +54,51 @@ a {
   align-items: center; 
   flex: 3; 
   display:flex;  
+}
+.avatarColumn{
+  padding: 8px 8px;
+  /* justify-content: center;  */
+  align-items: center;
+  flex: 3; 
+  display:flex; 
+  flex-direction: column;
+  /* background-color:rgb(209, 248, 103);  */
+}
+.challengeColumn{
+  padding: 8px 8px;
+  /* justify-content: center;  */
+  align-items: center; 
+  flex: 3; 
+  display:flex;  
+  flex-direction: column;
+  /* background-color:rgb(209, 248, 103);  */
+}
+.centralColumn{
+  padding: 8px 8px;
+  justify-content: center; 
+  /* align-items: center;  */
+  flex: 6; 
+  display:flex;
+}
+.statsBox{
+  padding: 8px 8px;
+  justify-content: center; 
+  min-height:100px;
+}
+.myProjectsContainer{
+  padding: 8px 8px;
+  justify-content: center; 
+  min-height:250px;
+  background-color:rgb(209, 248, 103); 
+}
+.postChallengeBox{
+  padding: 8px 8px;
+  justify-content: center; 
+  min-height:100px;
+}
+.dailyChallengeBox{
+  padding: 8px 8px;
+  justify-content: center; 
+  min-height:250px;
+  background-color:rgb(209, 248, 103); 
 }
