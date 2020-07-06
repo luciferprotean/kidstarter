@@ -33,21 +33,36 @@
               STATS
             </div>
             <div class = "myProjectsContainer">
-              MY PROJECTS
+              <div class ="columnContentImgTitle">
+                <img src = './images/myProjects.png'></img>
+              </div>
             </div>
           </div>
           <div class = "centralColumn">
-
+            <div class = "centralColumnTopRow" id = "centralColumnTopRow">
+              <canvas id="artifactCanvas">
+              </canvas>              
+            </div>
+            <div class = "centralColumnLowerRow">
+              SECNDARY TEXT HERE
+            </div>
           </div>
           <div class = "challengeColumn">
             <div class = "postChallengeBox">
               <img src = './images/postChallenge.png'></img>
             </div>
             <div class = "dailyChallengeBox">
-                TODAY'S CHALLENGE!
+                <div class ="columnContentImgTitle">
+                  <img src = './images/todaysChallenge.png'></img>
+                </div>
             </div>
           </div>
         </div>
     </div>
+    <script src="./javascripts/threejs/three.js"></script>
+    <script src="./javascripts/threejs/inflate.min.js"></script>
+    <script src="./javascripts/threejs/FBXLoader.js"></script>
+    <!-- <script src="./javascripts/FBXLoader_11_09_18.js"></script> -->
+    <script src="./javascripts/threejs/game.js"></script>
   </body>
 </html>

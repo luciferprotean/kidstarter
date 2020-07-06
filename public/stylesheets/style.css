@@ -79,6 +79,26 @@ a {
   /* align-items: center;  */
   flex: 6; 
   display:flex;
+  flex-direction: column;
+}
+.centralColumnTopRow{
+  border-radius: 5px;
+  border: 2px solid #73AD21; 
+  /* padding: 8px 8px; */
+  justify-content: center;  
+  /* align-items: center; */
+  min-height:120px;
+  flex : 2;
+  margin:2px;
+}
+.centralColumnLowerRow{
+  border-radius: 25px;
+  border: 2px solid #73AD21; 
+  padding: 8px 8px;
+  justify-content: center;  
+  /* align-items: center; */
+  margin:2px;
+  flex : 4;
 }
 .statsBox{
   padding: 8px 8px;
@@ -86,19 +106,27 @@ a {
   min-height:100px;
 }
 .myProjectsContainer{
+  border-radius: 25px;
+  border: 2px solid #73AD21; 
   padding: 8px 8px;
   justify-content: center; 
   min-height:250px;
-  background-color:rgb(209, 248, 103); 
+  /* background-color:rgb(209, 248, 103);  */
 }
 .postChallengeBox{
   padding: 8px 8px;
   justify-content: center; 
-  min-height:100px;
+  min-height:120px;
 }
 .dailyChallengeBox{
+  border-radius: 25px;
+  border: 2px solid #73AD21; 
   padding: 8px 8px;
   justify-content: center; 
-  min-height:250px;
-  background-color:rgb(209, 248, 103); 
+  min-height:330px;
+  /* background-color:rgb(209, 248, 103);  */
+}
+.columnContentImgTitle{
+  padding: 8px 8px;
+  justify-content: center; 
 }
