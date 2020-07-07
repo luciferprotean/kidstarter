@@ -29,9 +29,7 @@ loader.load( '../models/fbx/girl-walk.fbx', function ( object ) {
     // object.position.set(0,-100,0);    
 
 }, undefined, function ( e ) {
-
-    console.error( e );
-  
+    console.error( e );  
   } );
 
 

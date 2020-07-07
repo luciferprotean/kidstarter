@@ -82,14 +82,14 @@ a {
   flex-direction: column;
 }
 .centralColumnTopRow{
-  border-radius: 5px;
-  border: 2px solid #73AD21; 
+  /* border-radius: 5px;
+  border: 2px solid #73AD21;  */
   /* padding: 8px 8px; */
   justify-content: center;  
   /* align-items: center; */
   min-height:120px;
   flex : 2;
-  margin:2px;
+  margin:4px;
 }
 .centralColumnLowerRow{
   border-radius: 25px;
@@ -97,8 +97,11 @@ a {
   padding: 8px 8px;
   justify-content: center;  
   /* align-items: center; */
-  margin:2px;
+  margin:4px;
   flex : 4;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .statsBox{
   padding: 8px 8px;
@@ -129,4 +132,15 @@ a {
 .columnContentImgTitle{
   padding: 8px 8px;
   justify-content: center; 
+}
+.projectCell{
+  margin : 8px;
+  padding: 4px 4px;
+  justify-content: center; 
+  border-radius: 15px;
+  border: 2px solid #73AD21; 
+  /* height:200px;
+  min-width:200px; */
+  display:flex;
+  flex:1;
 }
